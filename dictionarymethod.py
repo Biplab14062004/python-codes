@@ -1,0 +1,27 @@
+dic={"name":"Biplab", "roll":32,'roll':43,'colour':['red','pink','black','white']}
+print(type(dic))
+print(dic)
+print(dic["name"])
+print(len(dic))
+print(dic)
+print(dic['colour'])
+x=dic.keys()
+print(x)
+y=dic.values()
+print(y)
+dic["roll"]=65
+print(dic)
+dic.update({'roll':40})
+print(dic)
+dic.update({'result':456})
+print(dic)
+dic.pop('name')
+print(dic)
+dic.popitem()
+print(dic)
+del dic['roll']
+print(dic)
+dic.clear()
+print(dic)
+del dic
+print(dic)
